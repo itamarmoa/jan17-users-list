@@ -1,3 +1,5 @@
+const $ = require("jquery");
+
 class PostsService{
 
     constructor() {
@@ -9,4 +11,4 @@ class PostsService{
 
 }
 
-const postsService = new PostsService();
+module.exports = new PostsService();

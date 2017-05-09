@@ -1,3 +1,10 @@
+const $ = require("jquery"),
+    UserPageComponent = require("./UserPage.component"),
+    UsersListComponent = require("./UsersList.component"),
+    userService = require("./UserService");
+
+
+
 class AppComponent {
 
     appendUserPage(id){
@@ -32,3 +39,5 @@ function createApp(){
     let app = new AppComponent();
     $(document.body).append( app.render() );
 }
+
+module.exports = createApp;

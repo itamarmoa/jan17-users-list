@@ -1,3 +1,11 @@
+const $ = require("jquery"),
+    postsService = require("./PostsService"),
+    userService = require("./UserService"),
+    UserDetailsComponent = require("./UserDetails.component"),
+    PostsComponent = require("./Posts.component");
+
+
+
 class UserPageComponent {
     constructor(userId){
         this.userId = userId;
@@ -37,3 +45,5 @@ class UserPageComponent {
         return this.element;
     }
 }
+
+module.exports = UserPageComponent;

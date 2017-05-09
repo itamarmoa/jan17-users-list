@@ -1,3 +1,5 @@
+const $ = require("jquery");
+
 class UsersListComponent {
     constructor(usersList){
         this.usersList = usersList;
@@ -33,3 +35,5 @@ class UsersListComponent {
         return $html;
     }
 }
+
+module.exports = UsersListComponent;

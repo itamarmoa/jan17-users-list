@@ -1,3 +1,5 @@
+const $ = require("jquery");
+
 class PostsComponent {
     constructor(posts){
         this.posts = posts;
@@ -23,4 +25,5 @@ class PostsComponent {
     }
 }
 
+module.exports = PostsComponent;
 
