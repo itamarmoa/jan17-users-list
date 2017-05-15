@@ -38,6 +38,7 @@ class AppComponent {
 function createApp(){
     let app = new AppComponent();
     $(document.body).append( app.render() );
+    console.log("creating app...");
 }
 
 module.exports = createApp;
